@@ -3,11 +3,13 @@
     background-color: black;
     border-color: #b33e60;
     font: #ffff;
+    text-align: center;
 
 }
 #wrap img{
-    width: 15%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
+    
 }
 main{
     display:grid;
@@ -33,7 +35,7 @@ main{
 }
 .box:nth-child(4){
     grid-column: span 2;
-    aspect-ratio: 2/1;
+    aspect-ratio: 5/1;
 }
 #wrap .box img{
     width: 100%;
